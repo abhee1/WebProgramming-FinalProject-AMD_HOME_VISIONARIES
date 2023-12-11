@@ -1,0 +1,78 @@
+
+.jumbotron{
+	background:url(../newbg.jpg) center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	height: 400px;
+	text-shadow: 0 0 2em #000000
+}
+
+.navbar-default{
+	background-color:#dc4949;
+	color: white;
+}
+.navbar-default .navbar-brand {
+	background:url(logo.png);
+	color:white;
+}
+.navbar-default .navbar-nav>li>a{
+	color:white;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+	color: white;
+}
+
+.dropdown-menu>li>a{
+	color: rgb(12, 12, 12);
+}
+.navbar-default .navbar-text{
+	color:white;
+}
+.dropdown-menu{
+	background-color:#dc4949;
+}
+#footimage{
+	background:url(images/cityfoot.png);
+	height: 80px;
+	background-size:contain;
+	display:compact;
+}
+.transbox{
+	background-color: rgba(230, 12, 12, 0.4); 
+	padding:.1em 4%;
+	border-radius: 10px;
+}
+
+/* Custom styling for the carousel */
+#imageCarousel {
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+.carousel-inner {
+    border-radius: 5px;
+}
+
+.carousel-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Optional: Adjust the controls' position or style */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
